@@ -48,6 +48,12 @@ export default function EventGaleryList() {
       title: "PLN Customer Gathering",
       link: "/galery/pln",
     },
+    {
+      src: "/EventGalery/Bus Launching/1.webp",
+      alt: "galery event",
+      title: "Launching Bus Trans Donggala",
+      link: "/galery/busdonggala",
+    },
   ];
 
   return (

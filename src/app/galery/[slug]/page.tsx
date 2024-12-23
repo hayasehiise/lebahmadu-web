@@ -9,6 +9,7 @@ const KumHamFestDetail = dynamic(() => import('@components/galery/slug/kumhamDet
 const PSEDetail = dynamic(() => import('@components/galery/slug/pseDetail'))
 const TogeanDetail = dynamic(() => import('@components/galery/slug/togeanDetail'))
 const PLNDetail = dynamic(() => import('@components/galery/slug/plnDetail'))
+const BusDetail = dynamic(() => import('@components/galery/slug/busDetail'))
 
 export default async function GaleryDetails({
   params,
@@ -32,6 +33,8 @@ export default async function GaleryDetails({
       return <TogeanDetail />;
     case 'pln':
       return <PLNDetail />
+    case 'busdonggala':
+      return <BusDetail />
     default:
       return <p>None</p>;
   }
