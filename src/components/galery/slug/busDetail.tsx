@@ -18,7 +18,7 @@ export default function BusDetail() {
               width={1000}
             />
             <p className="md:text-4xl text-lg font-extrabold">
-              Launching Bus Trans Donggala
+              Launching Layanan Angkutan Umum Kab. Donggala
             </p>
           </div>
           <div className="flex items-center justify-center m-10">

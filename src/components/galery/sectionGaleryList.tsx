@@ -51,7 +51,7 @@ export default function EventGaleryList() {
     {
       src: "/EventGalery/Bus Launching/1.webp",
       alt: "galery event",
-      title: "Launching Bus Trans Donggala",
+      title: "Launching Layanan Angkutan Umum Kab. Donggala",
       link: "/galery/busdonggala",
     },
   ];

@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import Image from "next/image";
 import EventIcon from "@publicAsset/event-icon.webp";
 
@@ -6,8 +6,17 @@ export default function EventTimeline() {
   return (
     <div className="w-full p-10 flex flex-col text-white">
       <div className="flex flex-row items-center mb-5">
-        <Image src={EventIcon} alt="Event Icon" width={500} height={500} className="w-1/4 md:w-1/12" />
-        <p className="md:text-4xl text-2xl font-extrabold"> Projects & Events</p>
+        <Image
+          src={EventIcon}
+          alt="Event Icon"
+          width={500}
+          height={500}
+          className="w-1/4 md:w-1/12"
+        />
+        <p className="md:text-4xl text-2xl font-extrabold">
+          {" "}
+          Projects & Events
+        </p>
       </div>
       <div>
         <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
@@ -117,7 +126,16 @@ export default function EventTimeline() {
               <div className="text-lg font-black">
                 Half Marathon Togean (13 Oktober 2024)
               </div>
-              Client -
+              Client OK OCE CELEBES
+              <div className="text-lg font-black">
+                PLN Customer Gathering (18 November 2024)
+              </div>
+              Client PT PLN (Persero) UP3 Palu
+              <div className="text-lg font-black">
+                Launching Layanan Angkutan Umum Kabupaten Donggala (12 Desember
+                2024)
+              </div>
+              Client Dinas Perhubungan Kabupaten Donggala
             </div>
             <hr className="bg-secondary" />
           </li>
@@ -126,4 +144,3 @@ export default function EventTimeline() {
     </div>
   );
 }
-  
